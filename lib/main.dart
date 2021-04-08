@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       //theme: new ThemeData(scaffoldBackgroundColor: const Color(Colors.white)),
       debugShowCheckedModeBanner: false,
-      home: Splash(),
+      home: SplashScreen(),
     );
   }
 }
